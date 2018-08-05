@@ -216,3 +216,38 @@ body {
     border: 0 none;
   }
   
+  @media screen and (max-width: 980px) {
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto; 
+      clear: both;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      clear: both;
+     }
+
+     nav {
+      position: static;
+    }
+    
+    nav a {
+      position: static;
+      float: left;
+    }
+  }
